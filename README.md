@@ -10,6 +10,7 @@ The project is divided into **three clear phases** as required in the assignment
 ## 🛠 Tech Stack Used
 
 ### Backend
+
 - Node.js
 - Express.js
 - MongoDB (Atlas)
@@ -18,9 +19,11 @@ The project is divided into **three clear phases** as required in the assignment
 - Serper.dev (Google Search API)
 
 ### AI / LLM
+
 - Groq API (LLaMA 3 models)
 
 ### Frontend
+
 - React
 - Axios
 
@@ -51,6 +54,14 @@ beyondchatsAssignmentHarithik/
 │
 └── README.md
 ```
+
+## 🧭 Architecture & Data Flow
+
+The following diagram shows the complete end-to-end flow of the system across all three phases:
+
+![Architecture Diagram](./diagrams/architecture-flow.png)
+
+This diagram explains how articles are scraped, processed using AI, stored, and finally visualized in the frontend.
 
 ---
 
@@ -87,6 +98,7 @@ Articles with insufficient reference content are intentionally skipped.
 ## ▶️ How to Run
 
 ### Backend
+
 ```bash
 cd beyondchats-backend
 npm install
@@ -94,11 +106,21 @@ npm run dev
 ```
 
 ### Frontend
+
 ```bash
 cd beyondchats-frontend
 npm install
 npm start
 ```
+
+## ⚠️ Deployment Note
+
+The frontend is deployed on Vercel for demonstration purposes.
+
+The backend APIs (`Node.js + MongoDB`) are designed to run locally as per assignment scope.
+Because of this, the live frontend may display "No articles found" unless the backend is running locally.
+
+This does not affect the assignment functionality, which can be verified by running the backend locally.
 
 ---
 
