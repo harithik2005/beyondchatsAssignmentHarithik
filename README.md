@@ -111,7 +111,15 @@ npm run dev
 cd beyondchats-frontend
 npm install
 npm start
+
 ```
+
+## 🌐 Live Demo
+
+Frontend Application (React):
+https://beyondchats-assignment-harithik.vercel.app/
+
+---
 
 ## ⚠️ Deployment Note
 
