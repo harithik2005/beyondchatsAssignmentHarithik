@@ -59,7 +59,7 @@ beyondchatsAssignmentHarithik/
 
 The following diagram shows the complete end-to-end flow of the system across all three phases:
 
-![Architecture Diagram](./diagrams/architecture-flow.png)
+![Architecture Diagram](Diagrams/architecture-flow.png)
 
 This diagram explains how articles are scraped, processed using AI, stored, and finally visualized in the frontend.
 
